@@ -1,0 +1,88 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: "Wendy One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    
+      
+        color: #fff;
+        background-color:#333 ;
+        background-image: url(./imagens/background.png);/*background from https://www.svgbackgrounds.com/backgrounds/ */
+       background-position: 50%;
+}
+img.perfil{
+    height: 310px;
+    width:310px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+    border-radius: 100%;
+    object-fit: cover;
+    transform: rotate(23deg);
+    border: #333 solid 5px;
+}
+
+nav{background-color: #000;
+    display: flex;
+    justify-content:center;
+}
+nav a {
+    color:#fff;        
+    text-decoration: none;
+    padding: 30px; 
+    text-transform: uppercase;  
+    
+}
+nav a:hover{
+    transform: scale(1.2);
+    text-shadow: #fff 0 0 30px;
+}
+nav a:active{
+    transform: scale(1.5);
+}
+div, .apresentacao{
+   text-align:center;  
+color:#fff;}
+.apresentacao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.fa-brands{
+    color: #fff;
+    font-size: 35px;
+}
+.icones{
+    position: fixed;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+div a:hover{
+    text-shadow: #fff 0 0 3px;
+    transform: scale(1.2);
+}
+.minhahistoria{
+text-align: center;
+}
+p.minhahistoria{
+    color: #ffffff;
+    width: 60%;
+    margin: auto;
+    text-justify: 9 auto;
+    background-color:#333333;
+  
+    border: #000000 solid 7px;
+    border-radius: 5%;
+    line-height: 25px;
+    l
+
+    
+}

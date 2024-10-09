@@ -189,7 +189,7 @@ li p{
 
 @media (max-width: 770px) {
   body, html {
-      background-image: none !important; /* Remove a imagem de fundo */
+      background-image: none !important;
   }
 
   .indeex {
